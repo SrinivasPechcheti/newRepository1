@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="0.206">
+    <testcase classname="Urban Ladders Site AutoMate" name="Urban Ladders Add To Cart page Validation" time="0.005">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User in Home Page.....................................................undefined
+When click on AddToCart.....................................................skipped
+Then validate the checkout option displayed or not..........................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders contactUs page Validation" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User on Home Page.....................................................undefined
+When click contact us tab in footer.........................................skipped
+Then Validating "What can I do if my product is damaged?" this text is displayed or not.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders Giftcard page Validation" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User  on the Home Page................................................undefined
+When click on Giftcard......................................................skipped
+Then cilck on choose........................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders Help page Validation" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User  in the Home Page................................................undefined
+When click Help tab in Header...............................................skipped
+Then Validating "'Help Center'"  text is displayed or not...................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Urban WebSite AutoMate" name="HomePage Validation" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User navigate to Home Page............................................undefined
+Then Urban Ladders Website logo should be displayed.........................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Urban Ladders  WebSite AutoMate" name="Urban Ladders Login Validation" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User on HomePage......................................................undefined
+When click on profileIcon...................................................skipped
+And click on Login option...................................................skipped
+When Enter the email and password...........................................skipped
+Then Login button verification..............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders contactUs page Validation" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User in the Home Page.................................................undefined
+When user enter a product name "carpet" and click on search.................skipped
+Then The searched product should be displayed on the result page............skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Urban Ladders Site AutoMate" name="Urban Ladders Selecting the product" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User in the Page......................................................undefined
+When User Select the Product................................................skipped
+Then validate the Selected product is displayed or not......................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Urban Ladders  WebSite AutoMate" name="Urban Ladders SignUp Validation" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User lands on Home Page...............................................undefined
+When click on profile icon..................................................skipped
+And click on SignUp.........................................................skipped
+And Enter the email and password from excel.................................skipped
+Then SignUP button verification.............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders Track Order Validation" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User  in  Home Page...................................................undefined
+When click on track order icon..............................................skipped
+And enter order number......................................................skipped
+When Enter moblie number....................................................skipped
+Then click on submit and passing Warning message............................skipped
+]]></failure>
+    </testcase>
+</testsuite>
