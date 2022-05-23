@@ -1,0 +1,23 @@
+13:19:44.407 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6be33677bef91923
+13:19:47.306 [main] INFO  com.mindtree.utility.BaseTest - Homepage loaded successfully
+13:19:48.852 [main] INFO  com.mindtree.utility.BaseTest - clicked on the profile
+13:19:49.879 [main] INFO  com.mindtree.utility.BaseTest - clicked on the SignUp option
+13:19:53.185 [main] INFO  com.mindtree.utility.BaseTest - Email entered successfully
+13:20:04.753 [main] INFO  com.mindtree.utility.BaseTest - clicked on the profile
+13:20:04.908 [main] INFO  com.mindtree.utility.BaseTest - clicked on the login option
+13:20:08.201 [main] INFO  com.mindtree.utility.BaseTest - Email entered successfully
+13:20:08.365 [main] INFO  com.mindtree.utility.BaseTest - password entered successfully
+13:20:09.502 [main] INFO  com.mindtree.utility.BaseTest - Login Successfully...... 
+13:20:12.405 [main] INFO  com.mindtree.utility.BaseTest - clicked on the profile
+13:20:13.215 [main] INFO  com.mindtree.utility.BaseTest - clicked on the logout option
+13:20:13.215 [main] INFO  com.mindtree.utility.BaseTest - logout Successfully...... 
+13:20:17.297 [main] INFO  com.mindtree.utility.BaseTest - Entering the product name and Searching for the product
+13:20:20.352 [main] INFO  com.mindtree.utility.BaseTest - Searched product displayed successfully
+13:20:21.962 [main] INFO  com.mindtree.utility.BaseTest - Navigated to Add to Cart section
+13:20:24.716 [main] INFO  com.mindtree.utility.BaseTest - clicked on the Continue shopping 
+13:20:26.001 [main] INFO  com.mindtree.utility.BaseTest - item is selected 
+13:20:27.312 [main] INFO  com.mindtree.utility.BaseTest - contact us page loaded successfully
+13:20:33.096 [main] INFO  com.mindtree.utility.BaseTest - text is displayed successfully
+13:20:34.405 [main] INFO  com.mindtree.utility.BaseTest - Hover action performed successfully
+13:20:41.660 [main] INFO  com.mindtree.utility.BaseTest - desired page loaded successfully
+13:20:46.460 [main] INFO  com.mindtree.utility.BaseTest - Gift Card has been Choosen
