@@ -21,13 +21,16 @@ public class SignUP {
 	@FindBy(xpath="//a[@class='signup-link authentication_popup']")
 	WebElement signinButton;
 	
-	@FindBy(xpath="//form[@id='signup_form']//input[@id='spree_user_email']")
+	@FindBy(xpath="//*[@id=\'google_login\']/span[1]/span")
+	WebElement lo;
+	
+	@FindBy(xpath="//*[@id=\'identifierId\']")
 	WebElement email;
 	
-	@FindBy(xpath="/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/input[2]")
+	@FindBy(xpath="//*[@id=\'spree_user_password\']")
 	WebElement password;
 	
-	@FindBy(xpath="//input[@value='Sign Up']")
+	@FindBy(xpath="//*[@id=\'ul_site_login\']")
 	WebElement signup;
 	
 	public WebElement Profile_click()
@@ -39,6 +42,9 @@ public class SignUP {
 	{
 		return signinButton;
 		
+	}
+	public WebElement lo() {
+		return lo;
 	}
 	public WebElement email()
 	{

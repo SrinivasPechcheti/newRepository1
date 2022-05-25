@@ -13,7 +13,7 @@ public class HomePage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//*[name()='path' and contains(@d,'M20.28 46.')]")
+	@FindBy(xpath="//*[@id=\'header\']/div[1]")
 	WebElement Logo;
 	
 

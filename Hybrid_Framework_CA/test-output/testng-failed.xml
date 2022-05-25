@@ -20,13 +20,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.mindtree.testcases.SignUpTest -->
-      <class name="com.mindtree.testcases.TrackOrderTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="track"/>
-        </methods>
-      </class> <!-- com.mindtree.testcases.TrackOrderTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

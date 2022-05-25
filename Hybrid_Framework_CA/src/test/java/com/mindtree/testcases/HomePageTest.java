@@ -20,11 +20,14 @@ public class HomePageTest extends BaseTest{
 		
 		HomePage hp=new HomePage(driver);
 		driver.get(baseURL);
+		Thread.sleep(3000);
 		log.info("Homepage loaded successfully");
 		test.info("Homepage loaded successfully");
-		Assert.assertFalse(hp.Homepage_logo().isDisplayed());
-		log.info("Logo  is not verified successfully");
-		test.warning("Logo is not  verified successfully");
+		Assert.assertTrue(hp.Homepage_logo().isDisplayed());
+		Thread.sleep(2000);
+		log.info("Logo  is  verified successfully");
+		test.info("Logo is   verified successfully");
+
 
 	}
 }

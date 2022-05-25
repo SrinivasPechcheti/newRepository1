@@ -11,7 +11,7 @@ public WebDriver driver;
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//*[@id=\'header\']/section/div/ul[1]/li[2]/a")
+	@FindBy(xpath="//a[@title='Track Order']//span//*[name()='svg']")
 	WebElement trackOrderOption;
 	
 	@FindBy(xpath="//*[@id=\'ip_379403698\']")

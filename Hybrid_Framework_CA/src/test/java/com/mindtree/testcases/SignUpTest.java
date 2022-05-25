@@ -13,6 +13,7 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -34,38 +35,40 @@ public class SignUpTest extends BaseTest{
 	{	
 		SignUP sp=new SignUP(driver);
 		driver.get(baseURL);
-	sp.Profile_click().click();
+		sp.Profile_click().click();
 		log.info("clicked on the profile");
-	test.info("clicked on the profile");
-		File scr1=new File(excellocation);
-		FileInputStream fis1 = new FileInputStream(scr1);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis1);
-
-		XSSFSheet sheet = workbook.getSheetAt(0);
-
-		Iterator<Row> rows = sheet.iterator();
-		Row firstRow = rows.next();
-		Row secondRow = rows.next();
-
-		Iterator<Cell> ce1 = firstRow.cellIterator();
-		ce1.next();
-		String email = ce1.next().getStringCellValue();
-		Iterator<Cell> ce2 = secondRow.cellIterator();
-		ce2.next();
-		String password = ce2.next().getStringCellValue();
+		test.info("clicked on the profile");
+//		File scr1=new File(excellocation);
+//		FileInputStream fis1 = new FileInputStream(scr1);
+//		XSSFWorkbook workbook = new XSSFWorkbook(fis1);
+//
+//		XSSFSheet sheet = workbook.getSheetAt(0);
+//
+//		Iterator<Row> rows = sheet.iterator();
+//		Row firstRow = rows.next();
+//		Row secondRow = rows.next();
+//
+//		Iterator<Cell> ce1 = firstRow.cellIterator();
+//		ce1.next();
+//		String email = ce1.next().getStringCellValue();
+//		Iterator<Cell> ce2 = secondRow.cellIterator();
+//		ce2.next();
+//		String password = ce2.next().getStringCellValue();
 		sp.SignUp().click();
 		log.info("clicked on the SignUp option");
 		test.info("clicked on the SignUp option");
-		sp.email().sendKeys(email);
+		sp.lo().click();
+		sp.email().sendKeys("PechchetiSrinivas");
 		log.info("Email entered successfully");
 		test.info("Email entered successfully");
-		sp.password().sendKeys(password);
-		log.info("password entered successfully");
-		test.info("password entered successfully");
-		sp.signup_click().click();
-		log.warn("Account already Exists ");
-		test.info("Account already Exists ");
-		Thread.sleep(2000);
+		sp.email().sendKeys(Keys.ENTER);
+//		sp.password().sendKeys(password);
+//		log.info("password entered successfully");
+//		test.info("password entered successfully");
+		//sp.signup_click().click();
+		log.info("signup with googgle");
+		test.info("signup with googgle");
+		
 		
 	}
 }

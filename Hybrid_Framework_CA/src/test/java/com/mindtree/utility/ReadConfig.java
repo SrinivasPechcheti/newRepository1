@@ -10,7 +10,7 @@ public class ReadConfig {
 	public WebDriver driver;
 	public ReadConfig()
 	{
-		File src = new File("C:\\Users\\Chinnu\\eclipse-workspace2\\ComprehensiveAssessment\\Configuration\\config.properties"); //srinivas
+		File src = new File("C:\\Users\\mindsdet175\\git\\repository1\\Hybrid_Framework_CA\\Configuration\\config.properties"); //srinivas
 
 		try {
 			FileInputStream fis = new FileInputStream(src);
@@ -42,7 +42,7 @@ public class ReadConfig {
 	public String getChromePath()
 	{ 
 		System.setProperty("webdriver.chrome.driver",
-			"C:\\Users\\Chinnu\\eclipse-workspace2\\ComprehensiveAssessment\\Driver\\chromedriver.exe");
+			"C:\\Users\\mindsdet175\\git\\repository1\\Hybrid_Framework_CA\\Driver\\chromedriver.exe");
 		driver= new ChromeDriver();
 		String chromepath=prop.getProperty("chromepath");
 		return chromepath;
