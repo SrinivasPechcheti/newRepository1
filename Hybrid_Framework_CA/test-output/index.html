@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.HomePageTest" class="method navigator-link" hash-for-method="HomePage">HomePage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.SignUpTest" class="method navigator-link" hash-for-method="SignUP">SignUP</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.TrackOrderTest" class="method navigator-link" hash-for-method="track">track</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -143,7 +138,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.LogoutTest" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.HomePageTest" class="method navigator-link" hash-for-method="HomePage">HomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,17 +148,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.LogoutTest" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.SearchTest" class="method navigator-link" hash-for-method="Search">Search</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.SelectProductTest" class="method navigator-link" hash-for-method="select">select</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.SignUpTest" class="method navigator-link" hash-for-method="SignUP">SignUP</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.TrackOrderTest" class="method navigator-link" hash-for-method="track">track</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.testcases.SelectProductTest" class="method navigator-link" hash-for-method="select">select</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -181,45 +181,23 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.mindtree.testcases.HomePageTest</span>
+              <span class="class-name">com.mindtree.testcases.TrackOrderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="HomePage">
-                  </a> <!-- HomePage -->
-                  <span class="method-name">HomePage</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
-	at com.mindtree.testcases.HomePageTest.HomePage(HomePageTest.java:25)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.mindtree.testcases.SignUpTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SignUP">
-                  </a> <!-- SignUP -->
-                  <span class="method-name">SignUP</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/input[2]&quot;}
-  (Session info: chrome=101.0.4951.67)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+                  <a name="track">
+                  </a> <!-- track -->
+                  <span class="method-name">track</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Oops. Something went wrong. Please try again later.}
+  (Session info: chrome=101.0.4951.67): Oops. Something went wrong. Please try again later.
 Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
 System info: host: &apos;MINDC1D271&apos;, ip: &apos;172.16.31.55&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1f5dc83eca7bd31f7680baa52d696a48, findElement {using=xpath, value=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/input[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\MINDSD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50593/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f5dc83eca7bd31f7680baa52d696a48
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+Command: [0fe0119f066c3ed3f360b31f0bc9a44a, findElement {using=xpath, value=//a[@title=&apos;Track Order&apos;]//span//*[name()=&apos;svg&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\MINDSD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52822/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fe0119f066c3ed3f360b31f0bc9a44a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
@@ -231,15 +209,30 @@ Session ID: 1f5dc83eca7bd31f7680baa52d696a48
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy32.sendKeys(Unknown Source)
-	at com.mindtree.testcases.SignUpTest.SignUP(SignUpTest.java:62)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
+	at com.mindtree.testcases.TrackOrderTest.track(TrackOrderTest.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mindtree.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage">
+                  </a> <!-- HomePage -->
+                  <span class="method-name">HomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -288,14 +281,14 @@ Session ID: 1f5dc83eca7bd31f7680baa52d696a48
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.mindtree.testcases.LoginTest</span>
+              <span class="class-name">com.mindtree.testcases.SignUpTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login">
-                  </a> <!-- Login -->
-                  <span class="method-name">Login</span>
+                  <a name="SignUP">
+                  </a> <!-- SignUP -->
+                  <span class="method-name">SignUP</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -318,14 +311,14 @@ Session ID: 1f5dc83eca7bd31f7680baa52d696a48
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.mindtree.testcases.TrackOrderTest</span>
+              <span class="class-name">com.mindtree.testcases.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="track">
-                  </a> <!-- track -->
-                  <span class="method-name">track</span>
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -388,7 +381,7 @@ Session ID: 1f5dc83eca7bd31f7680baa52d696a48
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.mindtree.utility.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.mindtree.testcases.HomePageTest&quot;/&gt;
       &lt;class name=&quot;com.mindtree.testcases.SignUpTest&quot;/&gt;
@@ -442,49 +435,49 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SignUP')
-data.setCell(0, 2, 'com.mindtree.testcases.SignUpTest')
-data.setCell(0, 3, 15860);
+data.setCell(0, 1, 'HelpPage')
+data.setCell(0, 2, 'com.mindtree.testcases.HelpTest')
+data.setCell(0, 3, 11252);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'track')
-data.setCell(1, 2, 'com.mindtree.testcases.TrackOrderTest')
-data.setCell(1, 3, 10719);
+data.setCell(1, 1, 'select')
+data.setCell(1, 2, 'com.mindtree.testcases.SelectProductTest')
+data.setCell(1, 3, 8926);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'select')
-data.setCell(2, 2, 'com.mindtree.testcases.SelectProductTest')
-data.setCell(2, 3, 8750);
+data.setCell(2, 1, 'Login')
+data.setCell(2, 2, 'com.mindtree.testcases.LoginTest')
+data.setCell(2, 3, 8410);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'GiftCard')
-data.setCell(3, 2, 'com.mindtree.testcases.GiftcardTest')
-data.setCell(3, 3, 7771);
+data.setCell(3, 1, 'ContactPage')
+data.setCell(3, 2, 'com.mindtree.testcases.ContactUsTest')
+data.setCell(3, 3, 7702);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'HelpPage')
-data.setCell(4, 2, 'com.mindtree.testcases.HelpTest')
-data.setCell(4, 3, 7680);
+data.setCell(4, 1, 'GiftCard')
+data.setCell(4, 2, 'com.mindtree.testcases.GiftcardTest')
+data.setCell(4, 3, 7615);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Login')
-data.setCell(5, 2, 'com.mindtree.testcases.LoginTest')
-data.setCell(5, 3, 7529);
+data.setCell(5, 1, 'HomePage')
+data.setCell(5, 2, 'com.mindtree.testcases.HomePageTest')
+data.setCell(5, 3, 6767);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'ContactPage')
-data.setCell(6, 2, 'com.mindtree.testcases.ContactUsTest')
-data.setCell(6, 3, 7483);
+data.setCell(6, 1, 'AddCart')
+data.setCell(6, 2, 'com.mindtree.testcases.AddToCartTest')
+data.setCell(6, 3, 5505);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'AddCart')
-data.setCell(7, 2, 'com.mindtree.testcases.AddToCartTest')
-data.setCell(7, 3, 6307);
+data.setCell(7, 1, 'Search')
+data.setCell(7, 2, 'com.mindtree.testcases.SearchTest')
+data.setCell(7, 3, 4809);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Search')
-data.setCell(8, 2, 'com.mindtree.testcases.SearchTest')
-data.setCell(8, 3, 4903);
+data.setCell(8, 1, 'SignUP')
+data.setCell(8, 2, 'com.mindtree.testcases.SignUpTest')
+data.setCell(8, 3, 4641);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'Login')
 data.setCell(9, 2, 'com.mindtree.testcases.LogoutTest')
-data.setCell(9, 3, 4249);
+data.setCell(9, 3, 3615);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'HomePage')
-data.setCell(10, 2, 'com.mindtree.testcases.HomePageTest')
-data.setCell(10, 3, 1466);
+data.setCell(10, 1, 'track')
+data.setCell(10, 2, 'com.mindtree.testcases.TrackOrderTest')
+data.setCell(10, 3, 2709);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -611,82 +604,80 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">HomePage</span>
-                <span class="method-start">5646 ms</span>
+                <span class="method-start">4729 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.SignUpTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SignUP</span>
-                <span class="method-start">7535 ms</span>
+                <span class="method-start">11516 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Login</span>
-                <span class="method-start">23773 ms</span>
+                <span class="method-start">16160 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.LogoutTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Login</span>
-                <span class="method-start">31304 ms</span>
+                <span class="method-start">24577 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.SearchTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Search</span>
-                <span class="method-start">35561 ms</span>
+                <span class="method-start">28196 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.AddToCartTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">AddCart</span>
-                <span class="method-start">40469 ms</span>
+                <span class="method-start">33010 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.ContactUsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">ContactPage</span>
-                <span class="method-start">46784 ms</span>
+                <span class="method-start">38522 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.SelectProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">select</span>
-                <span class="method-start">54281 ms</span>
+                <span class="method-start">46234 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.GiftcardTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GiftCard</span>
-                <span class="method-start">63040 ms</span>
+                <span class="method-start">55169 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.TrackOrderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">track</span>
-                <span class="method-start">70815 ms</span>
+                <span class="method-start">62801 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mindtree.testcases.HelpTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">HelpPage</span>
-                <span class="method-start">81540 ms</span>
+                <span class="method-start">66451 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -695,7 +686,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">89221 ms</span>
+                <span class="method-start">77704 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

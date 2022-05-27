@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mindtree.testcases.SelectProductTest">
+      <class name="com.mindtree.testcases.SignUpTest">
         <methods>
+          <include name="SignUP"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="select"/>
         </methods>
-      </class> <!-- com.mindtree.testcases.SelectProductTest -->
+      </class> <!-- com.mindtree.testcases.SignUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

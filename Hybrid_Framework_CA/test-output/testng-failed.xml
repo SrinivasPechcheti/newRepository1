@@ -9,17 +9,15 @@
       <class name="com.mindtree.testcases.HomePageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="HomePage"/>
         </methods>
       </class> <!-- com.mindtree.testcases.HomePageTest -->
-      <class name="com.mindtree.testcases.SignUpTest">
+      <class name="com.mindtree.testcases.TrackOrderTest">
         <methods>
-          <include name="SignUP"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="track"/>
         </methods>
-      </class> <!-- com.mindtree.testcases.SignUpTest -->
+      </class> <!-- com.mindtree.testcases.TrackOrderTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

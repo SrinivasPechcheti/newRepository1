@@ -1,0 +1,22 @@
+11:52:58.030 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+11:52:59.039 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+11:52:59.203 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x26e92a4bc062266d
+11:53:05.684 [main] INFO  com.mindtree.utility.BaseTest - Homepage loaded successfully
+11:53:07.799 [main] INFO  com.mindtree.utility.BaseTest - Logo  is  verified successfully
+11:53:08.831 [main] INFO  com.mindtree.utility.BaseTest - clicked on the profile
+11:53:09.070 [main] INFO  com.mindtree.utility.BaseTest - clicked on the SignUp option
+11:53:12.252 [main] INFO  com.mindtree.utility.BaseTest - Email entered successfully
+11:53:12.254 [main] INFO  com.mindtree.utility.BaseTest - password entered successfully
+11:53:12.460 [main] INFO  com.mindtree.utility.BaseTest - signup is failed 
+11:53:13.524 [main] INFO  com.mindtree.utility.BaseTest - clicked on the profile
+11:53:14.423 [main] INFO  com.mindtree.utility.BaseTest - clicked on the login option
+11:53:17.680 [main] INFO  com.mindtree.utility.BaseTest - Email entered successfully
+11:53:17.879 [main] INFO  com.mindtree.utility.BaseTest - password entered successfully
+11:53:18.859 [main] INFO  com.mindtree.utility.BaseTest - Login Successfully...... 
+11:53:21.712 [main] INFO  com.mindtree.utility.BaseTest - clicked on the profile
+11:53:22.489 [main] INFO  com.mindtree.utility.BaseTest - clicked on the logout option
+11:53:22.489 [main] INFO  com.mindtree.utility.BaseTest - logout Successfully...... 
+11:53:26.261 [main] INFO  com.mindtree.utility.BaseTest - Entering the product name and Searching for the product
+11:53:29.307 [main] INFO  com.mindtree.utility.BaseTest - Searched product displayed successfully
+11:53:30.959 [main] INFO  com.mindtree.utility.BaseTest - Navigated to Add to Cart section
+11:53:33.774 [main] INFO  com.mindtree.utility.BaseTest - clicked on the Continue shopping 

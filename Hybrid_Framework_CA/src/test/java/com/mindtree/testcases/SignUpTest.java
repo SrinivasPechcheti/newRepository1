@@ -1,23 +1,10 @@
 package com.mindtree.testcases;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Iterator;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.Keys;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import com.aventstack.extentreports.Status;
 
 import com.mindtree.pageObject.SignUP;
 import com.mindtree.utility.BaseTest;
@@ -57,18 +44,17 @@ public class SignUpTest extends BaseTest{
 		sp.SignUp().click();
 		log.info("clicked on the SignUp option");
 		test.info("clicked on the SignUp option");
-		sp.lo().click();
-		sp.email().sendKeys("PechchetiSrinivas");
+		//sp.lo().click();
+		sp.email().sendKeys("PechchetiSrinivas@gmail.com");
 		log.info("Email entered successfully");
 		test.info("Email entered successfully");
-		sp.email().sendKeys(Keys.ENTER);
-//		sp.password().sendKeys(password);
-//		log.info("password entered successfully");
-//		test.info("password entered successfully");
-		//sp.signup_click().click();
-		log.info("signup with googgle");
-		test.info("signup with googgle");
-		
+		//sp.email().sendKeys(Keys.ENTER);
+		//sp.password().sendKeys("Srinivas@939");
+		log.info("password entered successfully");
+		test.info("password entered successfully");
+		sp.signup_click().click();
+		log.info("signup is failed ");
+		test.info("signup is failed ");
 		
 	}
 }
