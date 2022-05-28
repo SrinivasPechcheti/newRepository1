@@ -5,22 +5,22 @@
 		<listener class-name="com.mindtree.utility.Listeners" />
 
 	</listeners>
-	<test thread-count="10" name="Test">
+	<test thread-count="12" name="Test">
 		<classes>
 
-			 <class name="com.mindtree.testcases.HomePageTest"></class>
+			  <class name="com.mindtree.testcases.HomePageTest"></class>
 	   	     <class name="com.mindtree.testcases.SignUpTest"></class>
 			 <class name="com.mindtree.testcases.LoginTest"></class>
 			 <class name="com.mindtree.testcases.LogoutTest"></class>
 			 <class name="com.mindtree.testcases.SearchTest"></class>
-		     <class name="com.mindtree.testcases.AddToCartTest"></class> 
-			 <class name="com.mindtree.testcases.ContactUsTest"></class>
 		     <class name="com.mindtree.testcases.SelectProductTest"></class>
-		     <class name="com.mindtree.testcases.GiftcardTest"></class>
-	         <class name="com.mindtree.testcases.TrackOrderTest"></class>
+		     <class name="com.mindtree.testcases.AddToCartTest"></class> 
+	         <class name="com.mindtree.testcases.TrackOrderTest"></class> 
+             <class name="com.mindtree.testcases.GiftcardTest"></class>
 	         <class name="com.mindtree.testcases.HelpTest"></class>
-	        
+              <class name="com.mindtree.testcases.ContactUsTest"></class>	        
 		</classes>
+
 	</test>
 
 	<!-- Test -->

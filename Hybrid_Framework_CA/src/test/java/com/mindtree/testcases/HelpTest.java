@@ -22,8 +22,7 @@ public class HelpTest extends BaseTest{
 		hp.query1().click();
 		log.info("Query regarding order is checked  successfully");
 		test.info("Query regarding order is checked  successfully");
-		driver.close();
-		driver.quit();
+		
 		
 		
 	}

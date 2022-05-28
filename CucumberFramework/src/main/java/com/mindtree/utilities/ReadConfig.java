@@ -10,7 +10,7 @@ public class ReadConfig {
 	
 	public ReadConfig()
 	{
-		File src = new File("C:\\Users\\Chinnu\\eclipse-workspace2\\CucumberFramework\\Configuration\\config.properties");
+		File src = new File("C:\\Users\\mindsdet175\\git\\repository1\\CucumberFramework\\Configuration\\config.properties");
 
 		try {
 			FileInputStream fis = new FileInputStream(src);

@@ -1,10 +1,9 @@
-11:53:34.814 [main] INFO  com.mindtree.utility.BaseTest - item is selected 
-11:53:36.670 [main] INFO  com.mindtree.utility.BaseTest - contact us page loaded successfully
-11:53:42.526 [main] INFO  com.mindtree.utility.BaseTest - text is displayed successfully
-11:53:44.467 [main] INFO  com.mindtree.utility.BaseTest - Hover action performed successfully
-11:53:51.463 [main] INFO  com.mindtree.utility.BaseTest - desired page loaded successfully
-11:53:56.023 [main] INFO  com.mindtree.utility.BaseTest - Gift Card has been Choosen
-11:53:56.172 [main] INFO  com.mindtree.utility.BaseTest - Amount  is Chossen
-11:53:59.087 [main] INFO  com.mindtree.utility.BaseTest - Gift card is comformed
-11:54:04.044 [main] INFO  com.mindtree.utility.BaseTest - Help page loaded successfully
-11:54:09.663 [main] INFO  com.mindtree.utility.BaseTest - Query regarding order is checked  successfully
+18:00:38.524 [main] INFO  com.mindtree.utility.BaseTest - order and Moblie number is added
+18:00:40.625 [main] INFO  com.mindtree.utility.BaseTest - Submit is done
+18:00:46.240 [main] INFO  com.mindtree.utility.BaseTest - Gift Card has been Choosen
+18:00:46.397 [main] INFO  com.mindtree.utility.BaseTest - Amount  is Chossen
+18:00:49.254 [main] INFO  com.mindtree.utility.BaseTest - Gift card is comformed
+18:00:51.011 [main] INFO  com.mindtree.utility.BaseTest - Help page loaded successfully
+18:00:57.035 [main] INFO  com.mindtree.utility.BaseTest - Query regarding order is checked  successfully
+18:00:59.207 [main] INFO  com.mindtree.utility.BaseTest - contact us page loaded successfully
+18:01:06.115 [main] INFO  com.mindtree.utility.BaseTest - text is displayed successfully

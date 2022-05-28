@@ -6,18 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.mindtree.testcases.HomePageTest">
+      <class name="com.mindtree.testcases.HelpTest">
         <methods>
           <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.mindtree.testcases.HomePageTest -->
-      <class name="com.mindtree.testcases.TrackOrderTest">
-        <methods>
-          <include name="tearDown"/>
+          <include name="HelpPage"/>
           <include name="setup"/>
-          <include name="track"/>
         </methods>
-      </class> <!-- com.mindtree.testcases.TrackOrderTest -->
+      </class> <!-- com.mindtree.testcases.HelpTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

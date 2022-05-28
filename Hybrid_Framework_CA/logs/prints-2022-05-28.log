@@ -1,0 +1,23 @@
+17:59:40.729 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xab1dfa8c60be6f93
+17:59:47.090 [main] INFO  com.mindtree.utility.BaseTest - Homepage loaded successfully
+17:59:49.342 [main] INFO  com.mindtree.utility.BaseTest - Logo  is  verified successfully
+17:59:52.100 [main] INFO  com.mindtree.utility.BaseTest - clicked on the profile
+17:59:52.188 [main] INFO  com.mindtree.utility.BaseTest - clicked on the SignUp option
+17:59:55.901 [main] INFO  com.mindtree.utility.BaseTest - Email entered successfully
+17:59:55.901 [main] INFO  com.mindtree.utility.BaseTest - password entered successfully
+17:59:56.105 [main] INFO  com.mindtree.utility.BaseTest - signup is failed 
+17:59:57.361 [main] INFO  com.mindtree.utility.BaseTest - clicked on the profile
+17:59:58.358 [main] INFO  com.mindtree.utility.BaseTest - clicked on the login option
+18:00:01.727 [main] INFO  com.mindtree.utility.BaseTest - Email entered successfully
+18:00:01.995 [main] INFO  com.mindtree.utility.BaseTest - password entered successfully
+18:00:03.245 [main] INFO  com.mindtree.utility.BaseTest - Login Successfully...... 
+18:00:06.095 [main] INFO  com.mindtree.utility.BaseTest - clicked on the profile
+18:00:07.012 [main] INFO  com.mindtree.utility.BaseTest - clicked on the logout option
+18:00:07.012 [main] INFO  com.mindtree.utility.BaseTest - logout Successfully...... 
+18:00:11.376 [main] INFO  com.mindtree.utility.BaseTest - Entering the product name and Searching for the product
+18:00:14.428 [main] INFO  com.mindtree.utility.BaseTest - Searched product displayed successfully
+18:00:15.564 [main] INFO  com.mindtree.utility.BaseTest - Hover action performed successfully
+18:00:22.854 [main] INFO  com.mindtree.utility.BaseTest - desired page loaded successfully
+18:00:24.783 [main] INFO  com.mindtree.utility.BaseTest - Navigated to Add to Cart section
+18:00:28.117 [main] INFO  com.mindtree.utility.BaseTest - clicked on the Continue shopping 
+18:00:29.190 [main] INFO  com.mindtree.utility.BaseTest - item is selected 
