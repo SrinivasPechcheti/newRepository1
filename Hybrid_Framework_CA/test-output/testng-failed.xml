@@ -6,6 +6,55 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.mindtree.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="HomePage"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.HomePageTest -->
+      <class name="com.mindtree.testcases.SelectProductTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="select"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.SelectProductTest -->
+      <class name="com.mindtree.testcases.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.SearchTest -->
+      <class name="com.mindtree.testcases.SignUpTest">
+        <methods>
+          <include name="SignUP"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.SignUpTest -->
+      <class name="com.mindtree.testcases.GiftcardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GiftCard"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.GiftcardTest -->
+      <class name="com.mindtree.testcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.LoginTest -->
+      <class name="com.mindtree.testcases.ContactUsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="ContactPage"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.ContactUsTest -->
       <class name="com.mindtree.testcases.HelpTest">
         <methods>
           <include name="tearDown"/>
@@ -13,6 +62,27 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.mindtree.testcases.HelpTest -->
+      <class name="com.mindtree.testcases.TrackOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="track"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.TrackOrderTest -->
+      <class name="com.mindtree.testcases.LogoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.LogoutTest -->
+      <class name="com.mindtree.testcases.AddToCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="AddCart"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.AddToCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
