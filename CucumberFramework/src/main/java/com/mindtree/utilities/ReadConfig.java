@@ -1,16 +1,19 @@
 package com.mindtree.utilities;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class ReadConfig {
+	public WebDriver driver;
+	Properties prop;
 
-	Properties prop;     
-
-	
-	public ReadConfig()
-	{
-		File src = new File("C:\\Users\\mindsdet175\\git\\repository1\\CucumberFramework\\Configuration\\config.properties");
+	public ReadConfig() {
+		File src = new File(
+				"C:\\Users\\mindsdet175\\git\\repository1\\CucumberFramework\\Configuration\\config.properties");
 
 		try {
 			FileInputStream fis = new FileInputStream(src);
@@ -20,40 +23,38 @@ public class ReadConfig {
 			System.out.println("Exception is " + e.getMessage());
 		}
 	}
-	
-	public String getApplicationURL()
-	{
-		String url=prop.getProperty("baseURL");
+
+	public String getApplicationURL() {
+		String url = prop.getProperty("baseURL");
 		return url;
 	}
-	public String getBrowser()
-	{
-		String browser=prop.getProperty("browser");
+
+	public String getBrowser() {
+		String browser = prop.getProperty("browser");
 		return browser;
 	}
-	public String Excel()
-	{
-		String excel=prop.getProperty("Excel_Location");
+
+	public String Excel() {
+		String excel = prop.getProperty("Excel_Location");
 		return excel;
 	}
-	
-	public String getChromePath()
-	{
-	String chromepath=prop.getProperty("chromepath");
-	return chromepath;
-	}
-	
-	public String getIEPath()
-	{
-	String iepath=prop.getProperty("iepath");
-	return iepath;
-	}
-	
-	public String getFirefoxPath()
-	{
-	String firefoxpath=prop.getProperty("firefoxpath");
-	return firefoxpath;
+
+	public String getChromePath() {
+		System.setProperty("WebDriver.Chrome.driver",
+				"C:\\Users\\mindsdet175\\git\\repository1\\CucumberFramework\\Driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		String chromepath = prop.getProperty("chromepath");
+		return chromepath;
 	}
 
-	
+	public String getIEPath() {
+		String iepath = prop.getProperty("iepath");
+		return iepath;
+	}
+
+	public String getFirefoxPath() {
+		String firefoxpath = prop.getProperty("firefoxpath");
+		return firefoxpath;
+	}
+
 }

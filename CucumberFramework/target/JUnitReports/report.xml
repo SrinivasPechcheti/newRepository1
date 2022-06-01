@@ -1,68 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="0.856">
-    <testcase classname="Urban Ladders Site AutoMate" name="Urban Ladders Add To Cart page Validation" time="0.008">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User in Home Page.....................................................undefined
-When click on AddToCart.....................................................skipped
-Then validate the checkout option displayed or not..........................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders contactUs page Validation" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User on Home Page.....................................................undefined
-When click contact us tab in footer.........................................skipped
-Then Validating "What can I do if my product is damaged?" this text is displayed or not.skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders Giftcard page Validation" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User  on the Home Page................................................undefined
-When click on Giftcard......................................................skipped
-Then cilck on choose........................................................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders Help page Validation" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User  in the Home Page................................................undefined
-When click Help tab in Header...............................................skipped
-Then Validating "'Help Center'"  text is displayed or not...................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Urban WebSite AutoMate" name="HomePage Validation" time="0.002">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User navigate to Home Page............................................undefined
-Then Urban Ladders Website logo should be displayed.........................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Urban Ladders  WebSite AutoMate" name="Urban Ladders Login Validation" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User on HomePage......................................................undefined
-When click on profileIcon...................................................skipped
-And click on Login option...................................................skipped
-When Enter the email and password...........................................skipped
-Then Login button verification..............................................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders contactUs page Validation" time="0.001">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User in the Home Page.................................................undefined
-When user enter a product name "carpet" and click on search.................skipped
-Then The searched product should be displayed on the result page............skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Urban Ladders Site AutoMate" name="Urban Ladders Selecting the product" time="0.001">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User in the Page......................................................undefined
-When User Select the Product................................................skipped
-Then validate the Selected product is displayed or not......................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Urban Ladders  WebSite AutoMate" name="Urban Ladders SignUp Validation" time="0.002">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User lands on Home Page...............................................undefined
-When click on profile icon..................................................skipped
-And click on SignUp.........................................................skipped
-And Enter the email and password from excel.................................skipped
-Then SignUP button verification.............................................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Urban Ladders WebSite AutoMate" name="Urban Ladders Track Order Validation" time="0">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User  in  Home Page...................................................undefined
-When click on track order icon..............................................skipped
-And enter order number......................................................skipped
-When Enter moblie number....................................................skipped
-Then click on submit and passing Warning message............................skipped
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.175">
+    <testcase classname="Automating Urban Website" name="HomePage Validation" time="0.749">
+        <failure message="The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html" type="java.lang.IllegalStateException"><![CDATA[Given Browser will open with the given url..................................failed
+Then validating logo........................................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+	at com.mindtree.utilities.ReadConfig.getChromePath(ReadConfig.java:45)
+	at com.mindtree.utilities.BaseClass.setup(BaseClass.java:32)
+	at com.mindtree.StepDefinations.HomepageDef.browser_will_open_with_the_given_url(HomepageDef.java:20)
+	at ✽.Browser will open with the given url(file:///C:/Users/mindsdet175/git/repository1/CucumberFramework/src/test/resources/features/HomePage.feature:4)
 ]]></failure>
     </testcase>
 </testsuite>

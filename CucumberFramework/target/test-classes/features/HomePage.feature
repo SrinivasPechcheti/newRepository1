@@ -1,5 +1,5 @@
-Feature: Urban WebSite AutoMate
+Feature: Automating Urban Website
 
   Scenario: HomePage Validation
-    Given User navigate to Home Page
-    Then Urban Ladders Website logo should be displayed
+    Given Browser will open with the given url
+    Then validating logo

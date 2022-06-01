@@ -12,12 +12,12 @@ public class LoginDef  extends BaseClass {
 	Login lo=new Login(driver,test);
 	@Given("User on HomePage")
 	public void user_on_home_page() {
+		driver.get(baseURL);
 		System.out.println("User on home page");
 	}
 
 	@When("click on profileIcon")
 	public void click_on_profile_icon() {
-		driver.get(baseURL);
 		lo.Profile_click().click();
 			log.info("clicked on the profile");
 		test.info("clicked on the profile");

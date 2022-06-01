@@ -2,6 +2,7 @@ package com.mindtree.StepDefinations;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 import com.mindtree.PageObjects.HomePage;
@@ -14,13 +15,14 @@ import io.cucumber.java.en.Then;
 public class HomepageDef  extends BaseClass{
 
 	public static Logger log= LogManager.getLogger(BaseClass.class.getName());
-	@Given("User navigate to Home Page")
-	public void user_navigate_to_home_page() {
+	@Given("Browser will open with the given url")
+	public void browser_will_open_with_the_given_url() {
 		driver=setup();
 		driver.get(baseURL);
+		driver =new ChromeDriver();
 	}
-	@Then("Urban Ladders Website logo should be displayed")
-	public void urban_ladders_website_logo_should_be_displayed() {
+	@Then("validating logo")
+	public void validating_logo() {
 		HomePage hp=new HomePage(driver,test);
 		log.info("Homepage loaded successfully");
 		test.info("Homepage loaded successfully");
